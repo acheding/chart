@@ -1,20 +1,8 @@
 <template>
-  <n-dropdown
-    trigger="hover"
-    @select="handleSelect"
-    :show-arrow="true"
-    :options="options"
-  >
+  <n-dropdown trigger="hover" @select="handleSelect" :show-arrow="true" :options="options">
     <div class="user-info-box">
       <person-icon v-if="fallback"></person-icon>
-      <n-avatar
-        v-if="!fallback"
-        round
-        object-fit="cover"
-        size="medium"
-        :src="Person"
-        @error="errorHandle"
-      ></n-avatar>
+      <n-avatar v-if="!fallback" round object-fit="cover" size="medium" :src="Person" @error="errorHandle"></n-avatar>
     </div>
   </n-dropdown>
 
@@ -34,12 +22,7 @@ import { GoSystemInfo } from '@/components/GoSystemInfo/index'
 import Person from './person.png'
 
 import { icon } from '@/plugins'
-const {
-  ChatboxEllipsesIcon,
-  PersonIcon,
-  LogOutOutlineIcon,
-  SettingsSharpIcon
-} = icon.ionicons5
+const { ChatboxEllipsesIcon, PersonIcon, LogOutOutlineIcon, SettingsSharpIcon } = icon.ionicons5
 
 const t = window['$t']
 
@@ -62,11 +45,7 @@ const renderUserInfo = () => {
         style: 'margin-right: 12px;',
         src: Person
       }),
-      h('div', null, [
-        h('div', null, [
-          h(NText, { depth: 2 }, { default: () => '奔跑的面条' })
-        ])
-      ])
+      h('div', null, [h('div', null, [h(NText, { depth: 2 }, { default: () => 'AcheChart' })])])
     ]
   )
 }
