@@ -7,5 +7,6 @@ import { TreeMapConfig } from './TreeMap/index'
 import { DialConfig } from './Dial/index'
 import { SankeyConfig } from './Sankey/index'
 import { GraphConfig } from './Graph/index'
+import { GradeConfig } from './Grade/index'
 
-export default [ProcessConfig, RadarConfig, FunnelConfig, HeatmapConfig, WaterPoloConfig, TreeMapConfig, GraphConfig, SankeyConfig, DialConfig]
+export default [ProcessConfig, RadarConfig, FunnelConfig, HeatmapConfig, WaterPoloConfig, TreeMapConfig, GraphConfig, SankeyConfig, DialConfig, GradeConfig]
