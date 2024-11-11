@@ -1,0 +1,7 @@
+[
+  { "name": "北京", "value": 80 },
+  { "name": "上海", "value": 40 },
+  { "name": "广州", "value": 60 },
+  { "name": "深圳", "value": 80 },
+  { "name": "杭州", "value": 100 }
+]
