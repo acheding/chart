@@ -1,0 +1,22 @@
+[
+  {
+    "name": "服务器 #001：成功",
+    "status": "success"
+  },
+  {
+    "name": "服务器 #002：正常",
+    "status": "primary"
+  },
+  {
+    "name": "服务器 #003：挂起",
+    "status": "info"
+  },
+  {
+    "name": "服务器 #004：警告",
+    "status": "warning"
+  },
+  {
+    "name": "服务器 #005：失败",
+    "status": "danger"
+  }
+]

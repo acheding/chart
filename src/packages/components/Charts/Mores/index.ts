@@ -11,6 +11,9 @@ import { GradeConfig } from './Grade/index'
 import { PercentConfig } from './Percent/index'
 import { GridProgressConfig } from './GridProgress/index'
 import { ClassificationConfig } from './Classification/index'
+import { CircleGridConfig } from './CircleGrid/index'
+import { StatusCardConfig } from './StatusCard/index'
+import { WarningPointConfig } from './WarningPoint/index'
 
 export default [
   ProcessConfig,
@@ -25,5 +28,8 @@ export default [
   GradeConfig,
   PercentConfig,
   GridProgressConfig,
-  ClassificationConfig
+  ClassificationConfig,
+  CircleGridConfig,
+  StatusCardConfig,
+  WarningPointConfig
 ]
