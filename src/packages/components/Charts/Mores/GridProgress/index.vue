@@ -43,13 +43,6 @@ import { onMounted, watch, reactive, PropType, computed, nextTick } from 'vue'
 import config, { option } from './config'
 import { mergeTheme } from '@/packages/public/chart'
 
-type DataProps = {
-  value: string | number
-  max: string | number
-  min: string | number
-  [key: string]: string | number
-}
-
 interface StateProps {
   defaultConfig: {
     dataset: {}
